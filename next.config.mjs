@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: { ignoreDuringBuild: true },
+  eslint: { ignoreBuildErrors: true },
   typescript: { ignoreBuildErrors: true },
   images: {
     domains: ['github.com'],
